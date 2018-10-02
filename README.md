@@ -73,8 +73,6 @@
 
   Well, your .vimrc (Vim Run Control) file controls what commands run when vim is invoked, and you can customize it to your heart's content. These commands are run _every time you open a new file_.
 
-#### TODO: Add Line Numbers
-
   We recommend you use Vim to add the following command to your .vimrc file located in your home directory (~/.vimrc): `vim ~/.vimrc`
 
 Add the text `set number` to the file, and save it!
@@ -83,7 +81,7 @@ Next time you open any file, you should see line numbers!
 
 You can disable this at any time within a file by typing `:set nonumber` within Vim, or by deleting it from your .vimrc and then re-opening Vim again.
 
-#### TODO: Add your own commands!
+
 As you can imagine, there are thousands of commands you can leverage in your .vimrc file, and there's even more people who have their own custom .vimrc they think you should use. 
 
 We want you to add _at least_ *3 more commands* to your .vimrc file, and turn it in.
@@ -353,7 +351,7 @@ ANOTHER NOTE: If you did not close projects and end up on the main IntelliJ scre
 
 
 ### 3.2: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
-*TODO:* You will be expected to find several bugs throughout the files *MathUtils.java* and *StringUtils.java*.
+
 All test cases should pass for your to receive full points. 
 
 You should use multiple methods to determine what's wrong:
@@ -421,12 +419,11 @@ To move onto the next breakpoint sector, you have to resume the program.
 ![](./images/test-middle-of-debugging.png)
 
 ### 3.3: Submit Working Code - "Talk is cheap. Show me the code."
-*TODO:* You should submit code that passes all test cases! 
 
 *REMEMBER: Just because something OUGHT to work, does not mean it will. Always question any assumptions
 or claims made about how code behaves!*
 
-## TODO -- What needs to get done for this project
+
 - Add 3 commands to your ~/.vimrc file
 - Pull Git Repository into IntelliJ
 - Use print statements and the IntelliJ Debugger to fix the code
